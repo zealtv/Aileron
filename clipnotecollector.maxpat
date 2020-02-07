@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 711.0, 85.0, 613.0, 618.0 ],
+		"rect" : [ 42.0, 85.0, 932.0, 627.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,49 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 565.699999749660492, 1379.0, 35.0, 22.0 ],
+					"text" : "open"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"automation" : "shownotesoff",
+					"automationon" : "shownoteson",
+					"id" : "obj-5",
+					"maxclass" : "live.text",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 565.699999749660492, 1353.80000190674582, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 101.0, 26.724329642195954, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_shortname" : "view notes",
+							"parameter_enum" : [ "shownotesoff", "shownoteson" ],
+							"parameter_type" : 2,
+							"parameter_linknames" : 1,
+							"parameter_longname" : "view-notes",
+							"parameter_mmax" : 1
+						}
+
+					}
+,
+					"text" : "view",
+					"varname" : "view-notes"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-41",
 					"maxclass" : "comment",
@@ -137,13 +180,13 @@
 					"presentation_rect" : [ 79.0, 26.724329642195954, 20.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.text[2]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_shortname" : "live.text[2]",
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_type" : 2
+							"parameter_type" : 2,
+							"parameter_longname" : "live.text[2]",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -203,15 +246,15 @@
 					"presentation_rect" : [ 17.0, 26.724329642195954, 60.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 1,
-							"parameter_longname" : "sort order",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 3,
 							"parameter_initial" : [ 2 ],
 							"parameter_order" : 2,
 							"parameter_shortname" : "order",
 							"parameter_enum" : [ "pitch", "sequence", "length", "velocity" ],
-							"parameter_type" : 2
+							"parameter_type" : 2,
+							"parameter_linknames" : 1,
+							"parameter_longname" : "sort order",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 3
 						}
 
 					}
@@ -498,7 +541,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 351.60000616312027, 989.800013482570648, 29.5, 22.0 ],
+					"patching_rect" : [ 408.5, 982.800013482570648, 29.5, 22.0 ],
 					"text" : "t b l"
 				}
 
@@ -522,7 +565,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 406.5, 979.0, 50.0, 22.0 ],
+					"patching_rect" : [ 332.0, 950.0, 50.0, 22.0 ],
 					"text" : "id 12"
 				}
 
@@ -1031,7 +1074,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-49", 1 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-19", 2 ]
 				}
 
@@ -1039,7 +1082,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-19", 2 ]
 				}
 
@@ -1174,8 +1217,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-27", 1 ],
-					"source" : [ "obj-49", 0 ]
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -1307,6 +1350,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-101", 0 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-62", 0 ],
 					"source" : [ "obj-90", 1 ]
 				}
@@ -1335,8 +1385,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-30" : [ "live.text[2]", "live.text[2]", 0 ],
 			"obj-32" : [ "sort order", "order", 2 ],
+			"obj-30" : [ "live.text[2]", "live.text[2]", 0 ],
+			"obj-5" : [ "view-notes", "view notes", 0 ],
 			"parameterbanks" : 			{
 
 			}
