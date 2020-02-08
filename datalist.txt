@@ -1,0 +1,17 @@
+0, "position north" 
+1, "position east" 
+2, "position down" 
+3, "velocity x" 
+4, "velocity y" 
+5, "velocity z" 
+6, "attitude x" 
+7, "attitude y" 
+8, "attitude z" 
+9, heading 
+10, "acceleration x" 
+11, "acceleration y" 
+12, "acceleration z" 
+13, latitude 
+14, longitude 
+15, altitude 
+16, time
