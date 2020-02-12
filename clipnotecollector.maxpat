@@ -62,7 +62,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 565.699999749660492, 1353.80000190674582, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 101.0, 26.724329642195954, 44.0, 15.0 ],
+					"presentation_rect" : [ 85.0, 19.724329642195954, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "view notes",
@@ -88,7 +88,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.864990000000034, 291.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.0, 4.724329642195954, 72.0, 20.0 ],
+					"presentation_rect" : [ 1.0, -2.275670357804046, 72.0, 20.0 ],
 					"text" : "note order",
 					"textjustification" : 1,
 					"underline" : 1
@@ -177,16 +177,16 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 831.0, 1163.400023388259797, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 79.0, 26.724329642195954, 20.0, 15.0 ],
+					"presentation_rect" : [ 63.0, 19.724329642195954, 20.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 1 ],
 							"parameter_shortname" : "live.text[2]",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "live.text[2]",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1
+							"parameter_mmax" : 1,
+							"parameter_initial" : [ 1 ]
 						}
 
 					}
@@ -243,18 +243,18 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 711.0, 1195.400023388259797, 73.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.0, 26.724329642195954, 60.0, 15.0 ],
+					"presentation_rect" : [ 1.0, 19.724329642195954, 60.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 2 ],
-							"parameter_order" : 2,
 							"parameter_shortname" : "order",
 							"parameter_enum" : [ "pitch", "sequence", "length", "velocity" ],
 							"parameter_type" : 2,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "sort order",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 3
+							"parameter_mmax" : 3,
+							"parameter_initial" : [ 2 ],
+							"parameter_order" : 2
 						}
 
 					}
@@ -577,7 +577,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 316.5, 875.0, 150.0, 48.0 ],
+					"patching_rect" : [ 316.5, 875.0, 150.0, 47.0 ],
 					"text" : "this bangs when notelist changes but leads to double calls"
 				}
 
@@ -1386,8 +1386,8 @@
  ],
 		"parameters" : 		{
 			"obj-32" : [ "sort order", "order", 2 ],
-			"obj-30" : [ "live.text[2]", "live.text[2]", 0 ],
 			"obj-5" : [ "view-notes", "view notes", 0 ],
+			"obj-30" : [ "live.text[2]", "live.text[2]", 0 ],
 			"parameterbanks" : 			{
 
 			}
