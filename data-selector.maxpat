@@ -180,14 +180,14 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 55.0, 75.0, 100.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.0, 1.0, 98.0, 15.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 98.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.menu",
 							"parameter_enum" : [ "none", "position north", "position east", "position up", "velocity", "velocity x", "velocity y", "velocity z", "attitude x", "attitude y", "attitude z", "heading", "acceleration x", "acceleration y", "acceleration z", "latitude", "longitude", "altitude", "time" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "live.menu",
-							"parameter_mmax" : 18
+							"parameter_mmax" : 18,
+							"parameter_shortname" : "live.menu"
 						}
 
 					}
