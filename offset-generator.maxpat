@@ -34,7 +34,7 @@
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
-		"tags" : "",
+		"tags" : "abstraction",
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
@@ -74,7 +74,6 @@
 					"presentation_rect" : [ 47.0, 2.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "offset2",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
 							"parameter_linknames" : 1,
@@ -82,7 +81,8 @@
 							"parameter_longname" : "offset2",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 24.0,
-							"parameter_initial" : [ 1 ]
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "offset2"
 						}
 
 					}
@@ -104,7 +104,6 @@
 					"presentation_rect" : [ 1.0, 2.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "offset1",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
 							"parameter_linknames" : 1,
@@ -112,7 +111,8 @@
 							"parameter_longname" : "offset1",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 24.0,
-							"parameter_initial" : [ 1 ]
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "offset1"
 						}
 
 					}
