@@ -220,8 +220,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.0, 316.0, 137.0, 22.0 ],
-					"text" : "data-formatter-subpatch"
+					"patching_rect" : [ 96.0, 316.0, 153.0, 22.0 ],
+					"text" : "data-formatter-subpatch #1"
 				}
 
 			}
@@ -526,19 +526,19 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-40" : [ "out-lo", "out-lo", 0 ],
-			"obj-1::obj-9" : [ "multiply", "multiply", 0 ],
-			"obj-1::obj-4" : [ "minimum", "min", 0 ],
-			"obj-1::obj-42" : [ "in-lo", "in-lo", 0 ],
-			"obj-1::obj-3" : [ "bound mode", "bounds", 0 ],
 			"obj-1::obj-39" : [ "out-hi", "out-hi", 0 ],
-			"obj-2" : [ "scale", "scale", 0 ],
-			"obj-1::obj-7" : [ "pre-add", "pre-add", 0 ],
-			"obj-9" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-1::obj-41" : [ "in-hi", "in-hi", 0 ],
-			"obj-3" : [ "source", "source", 0 ],
-			"obj-1::obj-8" : [ "post-add", "post-add", 0 ],
+			"obj-1::obj-42" : [ "in-lo", "in-lo", 0 ],
+			"obj-1::obj-7" : [ "pre-add", "pre-add", 0 ],
+			"obj-2" : [ "scale", "scale", 0 ],
 			"obj-1::obj-5" : [ "maximum", "max", 0 ],
+			"obj-1::obj-4" : [ "minimum", "min", 0 ],
+			"obj-1::obj-40" : [ "out-lo", "out-lo", 0 ],
+			"obj-3" : [ "source", "source", 0 ],
+			"obj-9" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-1::obj-8" : [ "post-add", "post-add", 0 ],
+			"obj-1::obj-9" : [ "multiply", "multiply", 0 ],
+			"obj-1::obj-3" : [ "bound mode", "bounds", 0 ],
 			"parameterbanks" : 			{
 
 			}
