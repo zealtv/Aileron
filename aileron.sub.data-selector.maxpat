@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 847.0, 349.0 ],
+		"rect" : [ 34.0, 79.0, 652.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -89,13 +89,13 @@
 					"presentation_rect" : [ 82.250000387430191, 2.5, 10.0, 10.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "scale",
 							"parameter_enum" : [ "scale", "scale" ],
 							"parameter_type" : 2,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "scale",
-							"parameter_invisible" : 2,
-							"parameter_mmax" : 1
+							"parameter_invisible" : 2
 						}
 
 					}
@@ -122,9 +122,9 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 95.5, 365.0, 90.0, 20.0 ],
+					"patching_rect" : [ 95.5, 365.0, 93.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 88.750000387430191, -1.833333343267441, 76.5, 20.0 ],
+					"presentation_rect" : [ 94.750000387430191, -1.833333343267441, 76.5, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triangle" : 0,
 					"tricolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ]
@@ -143,16 +143,16 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 275.5, 110.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.250000387430191, 0.0, 81.25, 15.0 ],
+					"presentation_rect" : [ 95.250000387430191, 0.0, 71.75, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.numbox",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 1,
 							"parameter_longname" : "live.numbox",
-							"parameter_invisible" : 2,
-							"parameter_mmax" : 1
+							"parameter_invisible" : 2
 						}
 
 					}
@@ -184,7 +184,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 275.5, 83.0, 137.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 158.75, -1.833333343267441, 165.0, 18.0 ],
+					"presentation_rect" : [ 165.000000387430191, -1.833333343267441, 165.0, 18.0 ],
 					"text" : "#1"
 				}
 
@@ -221,7 +221,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 96.0, 316.0, 153.0, 22.0 ],
-					"text" : "data-formatter-subpatch #1"
+					"text" : "data-formatter-subpatch #1",
+					"varname" : "data-formatter-subpatch"
 				}
 
 			}
@@ -371,12 +372,14 @@
 					"presentation_rect" : [ 0.0, 0.0, 80.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 18,
+							"parameter_initial" : [ "#2" ],
 							"parameter_shortname" : "source",
 							"parameter_enum" : [ "none", "position north", "position east", "position up", "velocity", "velocity x", "velocity y", "velocity z", "attitude x", "attitude y", "attitude z", "heading", "acceleration x", "acceleration y", "acceleration z", "latitude", "longitude", "altitude", "time" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "source",
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 18
+							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -526,19 +529,21 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-39" : [ "out-hi", "out-hi", 0 ],
-			"obj-1::obj-41" : [ "in-hi", "in-hi", 0 ],
 			"obj-1::obj-42" : [ "in-lo", "in-lo", 0 ],
-			"obj-1::obj-7" : [ "pre-add", "pre-add", 0 ],
-			"obj-2" : [ "scale", "scale", 0 ],
-			"obj-1::obj-5" : [ "maximum", "max", 0 ],
-			"obj-1::obj-4" : [ "minimum", "min", 0 ],
-			"obj-1::obj-40" : [ "out-lo", "out-lo", 0 ],
-			"obj-3" : [ "source", "source", 0 ],
-			"obj-9" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-1::obj-8" : [ "post-add", "post-add", 0 ],
-			"obj-1::obj-9" : [ "multiply", "multiply", 0 ],
 			"obj-1::obj-3" : [ "bound mode", "bounds", 0 ],
+			"obj-1::obj-39" : [ "out-hi", "out-hi", 0 ],
+			"obj-1::obj-4" : [ "minimum", "min", 0 ],
+			"obj-3" : [ "source", "source", 0 ],
+			"obj-1::obj-71" : [ "paste", "paste", 0 ],
+			"obj-1::obj-7" : [ "pre-add", "pre-add", 0 ],
+			"obj-1::obj-41" : [ "in-hi", "in-hi", 0 ],
+			"obj-1::obj-40" : [ "out-lo", "out-lo", 0 ],
+			"obj-1::obj-9" : [ "multiply", "multiply", 0 ],
+			"obj-1::obj-5" : [ "maximum", "max", 0 ],
+			"obj-9" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-1::obj-70" : [ "copy", "copy", 0 ],
+			"obj-2" : [ "scale", "scale", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -557,7 +562,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "data-formatter-subpatch.maxpat",
 				"bootpath" : "~/PHD/code/m4l/volumetric composition modules",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../volumetric composition modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
