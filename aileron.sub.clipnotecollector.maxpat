@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 932.0, 627.0 ],
+		"rect" : [ 374.0, 122.0, 689.0, 690.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,56 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"attr" : "inactivelcdcolor",
+					"id" : "obj-7",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 746.0, 889.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.2, 0.192157, 0.211765, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 9.5,
+					"id" : "obj-131",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 689.25, 1051.0, 76.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 0.724329642195954, 82.0, 18.0 ],
+					"text" : "NOTE ORDER",
+					"textcolor" : [ 0.909804, 0.921569, 0.933333, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-4",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "aileron.colors.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 696.0, 700.5, 380.0, 117.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -51,9 +101,13 @@
 			}
 , 			{
 				"box" : 				{
+					"appearance" : 2,
 					"automation" : "shownotesoff",
 					"automationon" : "shownoteson",
 					"id" : "obj-5",
+					"inactivelcdcolor" : [ 0.745098, 0.756863, 0.784314, 1.0 ],
+					"lcdbgcolor" : [ 0.2, 0.192157, 0.211765, 1.0 ],
+					"lcdcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
 					"maxclass" : "live.text",
 					"mode" : 0,
 					"numinlets" : 1,
@@ -62,36 +116,21 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 565.699999749660492, 1353.80000190674582, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 85.0, 19.724329642195954, 44.0, 15.0 ],
+					"presentation_rect" : [ 85.0, 20.724329642195954, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "view-notes",
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "view notes",
 							"parameter_enum" : [ "shownotesoff", "shownoteson" ],
 							"parameter_type" : 2,
-							"parameter_linknames" : 1,
-							"parameter_longname" : "view-notes",
-							"parameter_mmax" : 1
+							"parameter_linknames" : 1
 						}
 
 					}
 ,
 					"text" : "view",
 					"varname" : "view-notes"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-41",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.864990000000034, 291.0, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1.0, -2.275670357804046, 72.0, 20.0 ],
-					"text" : "note order",
-					"textjustification" : 1,
-					"underline" : 1
 				}
 
 			}
@@ -169,7 +208,11 @@
 			}
 , 			{
 				"box" : 				{
+					"appearance" : 2,
 					"id" : "obj-30",
+					"inactivelcdcolor" : [ 0.745098, 0.756863, 0.784314, 1.0 ],
+					"lcdbgcolor" : [ 0.2, 0.192157, 0.211765, 1.0 ],
+					"lcdcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -177,16 +220,16 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 831.0, 1163.400023388259797, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 63.0, 19.724329642195954, 20.0, 15.0 ],
+					"presentation_rect" : [ 63.0, 20.724329642195954, 20.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.text[2]",
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_type" : 2,
 							"parameter_longname" : "live.text[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1,
-							"parameter_initial" : [ 1 ]
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "live.text[2]",
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_type" : 2
 						}
 
 					}
@@ -235,7 +278,11 @@
 			}
 , 			{
 				"box" : 				{
+					"appearance" : 1,
 					"id" : "obj-32",
+					"inactivelcdcolor" : [ 0.745098, 0.756863, 0.784314, 1.0 ],
+					"lcdbgcolor" : [ 0.2, 0.192157, 0.211765, 1.0 ],
+					"lcdcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -243,18 +290,18 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 711.0, 1195.400023388259797, 73.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 19.724329642195954, 60.0, 15.0 ],
+					"presentation_rect" : [ 1.0, 20.724329642195954, 60.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "order",
-							"parameter_enum" : [ "pitch", "sequence", "length", "velocity" ],
-							"parameter_type" : 2,
-							"parameter_linknames" : 1,
 							"parameter_longname" : "sort order",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 3,
 							"parameter_initial" : [ 2 ],
-							"parameter_order" : 2
+							"parameter_order" : 2,
+							"parameter_shortname" : "order",
+							"parameter_enum" : [ "pitch", "sequence", "length", "velocity" ],
+							"parameter_type" : 2,
+							"parameter_linknames" : 1
 						}
 
 					}
@@ -1159,6 +1206,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
 					"source" : [ "obj-43", 0 ]
 				}
@@ -1385,17 +1439,37 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-32" : [ "sort order", "order", 2 ],
 			"obj-5" : [ "view-notes", "view notes", 0 ],
 			"obj-30" : [ "live.text[2]", "live.text[2]", 0 ],
+			"obj-32" : [ "sort order", "order", 2 ],
 			"parameterbanks" : 			{
 
 			}
 
 		}
 ,
-		"dependency_cache" : [  ],
-		"autosave" : 0
+		"dependency_cache" : [ 			{
+				"name" : "aileron.colors.maxpat",
+				"bootpath" : "~/PHD/code/m4l/Aileron/assets",
+				"patcherrelativepath" : "./assets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "aileron",
+				"default" : 				{
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 0 ],
+					"locked_bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
+					"fontsize" : [ 12.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

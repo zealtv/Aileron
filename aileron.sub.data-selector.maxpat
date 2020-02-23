@@ -75,9 +75,13 @@
 			}
 , 			{
 				"box" : 				{
+					"appearance" : 2,
 					"automation" : "scale",
 					"automationon" : "scale",
 					"id" : "obj-2",
+					"inactivelcdcolor" : [ 0.745098039215686, 0.756862745098039, 0.784313725490196, 1.0 ],
+					"lcdbgcolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
+					"lcdcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -89,13 +93,13 @@
 					"presentation_rect" : [ 82.250000387430191, 2.5, 10.0, 10.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "scale",
+							"parameter_invisible" : 2,
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "scale",
 							"parameter_enum" : [ "scale", "scale" ],
 							"parameter_type" : 2,
-							"parameter_linknames" : 1,
-							"parameter_longname" : "scale",
-							"parameter_invisible" : 2
+							"parameter_linknames" : 1
 						}
 
 					}
@@ -125,7 +129,7 @@
 					"patching_rect" : [ 95.5, 365.0, 93.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 94.750000387430191, -1.833333343267441, 76.5, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
 					"triangle" : 0,
 					"tricolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ]
 				}
@@ -133,8 +137,12 @@
 			}
 , 			{
 				"box" : 				{
+					"appearance" : 4,
 					"id" : "obj-9",
 					"ignoreclick" : 1,
+					"inactivelcdcolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
+					"lcdbgcolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
+					"lcdcolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -146,18 +154,19 @@
 					"presentation_rect" : [ 95.250000387430191, 0.0, 71.75, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.numbox",
+							"parameter_invisible" : 2,
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.numbox",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_type" : 2,
-							"parameter_unitstyle" : 1,
-							"parameter_longname" : "live.numbox",
-							"parameter_invisible" : 2
+							"parameter_unitstyle" : 1
 						}
 
 					}
 ,
 					"textcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"textjustification" : 0,
 					"varname" : "live.numbox"
 				}
 
@@ -176,6 +185,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-7",
@@ -184,8 +194,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 275.5, 83.0, 137.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 165.000000387430191, -1.833333343267441, 165.0, 18.0 ],
-					"text" : "#1"
+					"presentation_rect" : [ 169.000000387430191, -1.833333343267441, 165.0, 18.0 ],
+					"text" : "#1",
+					"textcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ]
 				}
 
 			}
@@ -220,8 +231,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.0, 316.0, 153.0, 22.0 ],
-					"text" : "data-formatter-subpatch #1",
+					"patching_rect" : [ 96.0, 316.0, 163.0, 22.0 ],
+					"text" : "aileron.sub.data-formatter #1",
 					"varname" : "data-formatter-subpatch"
 				}
 
@@ -361,7 +372,11 @@
 			}
 , 			{
 				"box" : 				{
+					"appearance" : 1,
 					"id" : "obj-3",
+					"inactivelcdcolor" : [ 0.745098039215686, 0.756862745098039, 0.784313725490196, 1.0 ],
+					"lcdbgcolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
+					"lcdcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -372,14 +387,14 @@
 					"presentation_rect" : [ 0.0, 0.0, 80.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "source",
+							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 1,
 							"parameter_mmax" : 18,
 							"parameter_initial" : [ "#2" ],
 							"parameter_shortname" : "source",
 							"parameter_enum" : [ "none", "position north", "position east", "position up", "velocity", "velocity x", "velocity y", "velocity z", "attitude x", "attitude y", "attitude z", "heading", "acceleration x", "acceleration y", "acceleration z", "latitude", "longitude", "altitude", "time" ],
-							"parameter_type" : 2,
-							"parameter_longname" : "source",
-							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -529,21 +544,21 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-42" : [ "in-lo", "in-lo", 0 ],
 			"obj-1::obj-8" : [ "post-add", "post-add", 0 ],
-			"obj-1::obj-3" : [ "bound mode", "bounds", 0 ],
-			"obj-1::obj-39" : [ "out-hi", "out-hi", 0 ],
-			"obj-1::obj-4" : [ "minimum", "min", 0 ],
-			"obj-3" : [ "source", "source", 0 ],
-			"obj-1::obj-71" : [ "paste", "paste", 0 ],
-			"obj-1::obj-7" : [ "pre-add", "pre-add", 0 ],
-			"obj-1::obj-41" : [ "in-hi", "in-hi", 0 ],
-			"obj-1::obj-40" : [ "out-lo", "out-lo", 0 ],
 			"obj-1::obj-9" : [ "multiply", "multiply", 0 ],
-			"obj-1::obj-5" : [ "maximum", "max", 0 ],
-			"obj-9" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-1::obj-70" : [ "copy", "copy", 0 ],
+			"obj-1::obj-39" : [ "out-hi", "out-hi", 0 ],
+			"obj-1::obj-41" : [ "in-hi", "in-hi", 0 ],
 			"obj-2" : [ "scale", "scale", 0 ],
+			"obj-1::obj-70" : [ "copy", "copy", 0 ],
+			"obj-1::obj-7" : [ "pre-add", "pre-add", 0 ],
+			"obj-1::obj-5" : [ "maximum", "max", 0 ],
+			"obj-1::obj-4" : [ "minimum", "min", 0 ],
+			"obj-9" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-1::obj-40" : [ "out-lo", "out-lo", 0 ],
+			"obj-1::obj-3" : [ "bound mode", "bounds", 0 ],
+			"obj-3" : [ "source", "source", 0 ],
+			"obj-1::obj-42" : [ "in-lo", "in-lo", 0 ],
+			"obj-1::obj-71" : [ "paste", "paste", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -560,9 +575,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "data-formatter-subpatch.maxpat",
-				"bootpath" : "~/PHD/code/m4l/volumetric composition modules",
-				"patcherrelativepath" : "../volumetric composition modules",
+				"name" : "aileron.sub.data-formatter.maxpat",
+				"bootpath" : "~/PHD/code/m4l/Aileron",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

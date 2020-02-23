@@ -63,7 +63,11 @@
 			}
 , 			{
 				"box" : 				{
+					"appearance" : 4,
 					"id" : "obj-4",
+					"inactivelcdcolor" : [ 0.745098039215686, 0.756862745098039, 0.784313725490196, 1.0 ],
+					"lcdbgcolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
+					"lcdcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -74,26 +78,31 @@
 					"presentation_rect" : [ 47.0, 2.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
-							"parameter_linknames" : 1,
-							"parameter_mmin" : -24.0,
 							"parameter_longname" : "offset2",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 24.0,
 							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "offset2"
+							"parameter_shortname" : "offset2",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0,
+							"parameter_linknames" : 1,
+							"parameter_mmin" : -24.0
 						}
 
 					}
 ,
+					"textjustification" : 0,
 					"varname" : "offset2"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"appearance" : 4,
 					"id" : "obj-3",
+					"inactivelcdcolor" : [ 0.745098039215686, 0.756862745098039, 0.784313725490196, 1.0 ],
+					"lcdbgcolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
+					"lcdcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -104,19 +113,20 @@
 					"presentation_rect" : [ 1.0, 2.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
-							"parameter_linknames" : 1,
-							"parameter_mmin" : -24.0,
 							"parameter_longname" : "offset1",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 24.0,
 							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "offset1"
+							"parameter_shortname" : "offset1",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0,
+							"parameter_linknames" : 1,
+							"parameter_mmin" : -24.0
 						}
 
 					}
 ,
+					"textjustification" : 0,
 					"varname" : "offset1"
 				}
 
@@ -143,7 +153,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 36.0, 708.0, 50.0, 49.0 ],
-					"text" : "0 1 2 3 4 5 6 7 8 9"
+					"text" : "0 0 0 0 0 0 0 0 0 0"
 				}
 
 			}
@@ -203,7 +213,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 132.0, 523.5, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "0"
 				}
 
 			}
@@ -215,7 +225,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 189.5, 523.5, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "0"
 				}
 
 			}
@@ -596,8 +606,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3" : [ "offset1", "offset1", 0 ],
 			"obj-4" : [ "offset2", "offset2", 0 ],
+			"obj-3" : [ "offset1", "offset1", 0 ],
 			"parameterbanks" : 			{
 
 			}
