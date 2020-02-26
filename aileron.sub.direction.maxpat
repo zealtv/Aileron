@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1372.0, 787.0 ],
+		"rect" : [ 34.0, 79.0, 951.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,151 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "live.slider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"orientation" : 1,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 947.5, 449.5, 96.0, 41.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 257.404164509342536, 119.5, 96.0, 41.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0,
+							"parameter_linknames" : 1,
+							"parameter_mmin" : 1.0,
+							"parameter_longname" : "focus",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 20.0,
+							"parameter_initial" : [ 10.0 ],
+							"parameter_shortname" : "focus"
+						}
+
+					}
+,
+					"slidercolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
+					"textcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
+					"tribordercolor" : [ 0.988235294117647, 0.490196078431373, 0.376470588235294, 1.0 ],
+					"tricolor" : [ 0.988235294117647, 0.490196078431373, 0.376470588235294, 1.0 ],
+					"trioncolor" : [ 0.988235294117647, 0.490196078431373, 0.376470588235294, 1.0 ],
+					"varname" : "focus"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"degrees" : 360,
+					"floatoutput" : 1,
+					"id" : "obj-3",
+					"maxclass" : "dial",
+					"mode" : 4,
+					"needlecolor" : [ 0.988235294117647, 0.490196078431373, 0.376470588235294, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"outlinecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 786.0, 379.0, 97.0, 97.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 28.19288426289603, 65.0, 71.0, 71.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_type" : 0,
+							"parameter_linknames" : 1,
+							"parameter_longname" : "position",
+							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 2,
+							"parameter_mmax" : 1.0,
+							"parameter_initial" : [ 0.5 ],
+							"parameter_shortname" : "position"
+						}
+
+					}
+,
+					"size" : 1.0,
+					"thickness" : 30.0,
+					"varname" : "position"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.396078431372549, 0.643137254901961, 0.886274509803922, 1.0 ],
+					"id" : "obj-40",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 359.0, 111.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 39.69288426289603, 76.5, 48.0, 48.0 ],
+					"proportion" : 0.5,
+					"shape" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"degrees" : 360,
+					"floatoutput" : 1,
+					"id" : "obj-4",
+					"ignoreclick" : 1,
+					"maxclass" : "dial",
+					"mode" : 1,
+					"needlecolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"outlinecolor" : [ 0.745098039215686, 0.756862745098039, 0.784313725490196, 1.0 ],
+					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
+					"patching_rect" : [ 680.5, 379.0, 97.0, 97.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 28.19288426289603, 65.0, 71.0, 71.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_type" : 0,
+							"parameter_longname" : "dial",
+							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 2,
+							"parameter_mmax" : 1.0,
+							"parameter_initial" : [ 0.5 ],
+							"parameter_shortname" : "dial"
+						}
+
+					}
+,
+					"size" : 1.0,
+					"thickness" : 100.0,
+					"varname" : "dial"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.16078431372549, 0.466666666666667, 0.737254901960784, 1.0 ],
+					"id" : "obj-44",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 346.5, 103.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 28.19288426289603, 65.0, 71.0, 71.0 ],
+					"proportion" : 0.5,
+					"shape" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-17",
@@ -158,8 +303,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 260.404164509342536, 26.93749825656414, 90.0, 90.0 ],
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
-					"xplace" : [ 0.0 ],
-					"yplace" : [ 1.0 ]
+					"xplace" : [ 0.5 ],
+					"yplace" : [ 0.0 ]
 				}
 
 			}
@@ -224,7 +369,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 389.5, 518.0, 42.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.546183555904634, 49.0, 42.0, 100.0 ],
+					"presentation_rect" : [ 194.078652788688089, 50.5, 42.0, 100.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_type" : 0,
@@ -1766,7 +1911,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 427.0, 518.0, 57.0, 33.0 ],
+					"patching_rect" : [ 427.0, 518.0, 60.0, 33.0 ],
 					"text" : "elevation chooser"
 				}
 
@@ -1851,81 +1996,6 @@
 					"text" : "N",
 					"textcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
 					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"activedialcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
-					"activefgdialcolor" : [ 0.745098039215686, 0.756862745098039, 0.784313725490196, 1.0 ],
-					"activeneedlecolor" : [ 0.988235294117647, 0.490196078431373, 0.376470588235294, 1.0 ],
-					"appearance" : 1,
-					"dialcolor" : [ 0.745098039215686, 0.756862745098039, 0.784313725490196, 1.0 ],
-					"fgdialcolor" : [ 0.745098039215686, 0.756862745098039, 0.784313725490196, 1.0 ],
-					"id" : "obj-5",
-					"maxclass" : "live.dial",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 947.5, 456.0, 25.0, 36.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 292.964421314480205, 122.0, 25.0, 36.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
-							"parameter_linknames" : 1,
-							"parameter_mmin" : 1.0,
-							"parameter_longname" : "focus",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 20.0,
-							"parameter_initial" : [ 10.0 ],
-							"parameter_shortname" : "focus"
-						}
-
-					}
-,
-					"textcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
-					"tricolor" : [ 0.988235294117647, 0.490196078431373, 0.376470588235294, 1.0 ],
-					"varname" : "focus"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"degrees" : 360,
-					"floatoutput" : 1,
-					"id" : "obj-3",
-					"maxclass" : "dial",
-					"mode" : 4,
-					"needlecolor" : [ 0.988235294117647, 0.490196078431373, 0.376470588235294, 1.0 ],
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"outlinecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 786.0, 376.0, 97.0, 97.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 27.635768525792059, 65.0, 71.0, 71.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_linknames" : 1,
-							"parameter_longname" : "position",
-							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 2,
-							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ 0.5 ],
-							"parameter_shortname" : "position"
-						}
-
-					}
-,
-					"size" : 1.0,
-					"thickness" : 30.0,
-					"varname" : "position"
 				}
 
 			}
@@ -2483,45 +2553,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"degrees" : 360,
-					"floatoutput" : 1,
-					"id" : "obj-4",
-					"ignoreclick" : 1,
-					"maxclass" : "dial",
-					"mode" : 1,
-					"needlecolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"outlinecolor" : [ 0.745098039215686, 0.756862745098039, 0.784313725490196, 1.0 ],
-					"parameter_enable" : 1,
-					"parameter_mappable" : 0,
-					"patching_rect" : [ 680.5, 376.0, 97.0, 97.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 27.635768525792059, 65.0, 71.0, 71.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_longname" : "dial",
-							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 2,
-							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ 0.5 ],
-							"parameter_shortname" : "dial"
-						}
-
-					}
-,
-					"size" : 1.0,
-					"thickness" : 100.0,
-					"varname" : "dial"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
+					"bgcolor" : [ 0.329411764705882, 0.235294117647059, 0.207843137254902, 0.0 ],
 					"elementcolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-18",
@@ -2536,7 +2568,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 368.0, 518.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 194.181952081696693, 49.0, 22.728462948415768, 100.0 ],
+					"presentation_rect" : [ 194.078652788688089, 50.5, 22.728462948415768, 100.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_type" : 0,
@@ -2559,16 +2591,16 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"background" : 1,
-					"bgcolor" : [ 0.16078431372549, 0.466666666666667, 0.737254901960784, 1.0 ],
+					"bgcolor" : [ 0.329411764705882, 0.235294117647059, 0.207843137254902, 1.0 ],
 					"bordercolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
-					"id" : "obj-81",
+					"id" : "obj-2",
 					"maxclass" : "panel",
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -53.5, -203.049998104572296, 368.0, 530.049998104572296 ],
+					"patching_rect" : [ 496.181952081696693, -178.0, 246.999999999999943, 251.049998104572296 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 194.181952081696693, 49.0, 41.896700706991396, 100.0 ],
+					"presentation_rect" : [ 194.078652788688089, 100.5, 41.896701, 50.0 ],
 					"proportion" : 0.5,
 					"rounded" : 5
 				}
@@ -2580,6 +2612,25 @@
 					"background" : 1,
 					"bgcolor" : [ 0.16078431372549, 0.466666666666667, 0.737254901960784, 1.0 ],
 					"bordercolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
+					"id" : "obj-81",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ -53.5, -203.049998104572296, 368.0, 530.049998104572296 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 194.078652788688089, 50.5, 41.896700706991396, 100.0 ],
+					"proportion" : 0.5,
+					"rounded" : 5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
+					"bordercolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
 					"id" : "obj-79",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -2587,7 +2638,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ -68.5, -218.049998104572296, 368.0, 530.049998104572296 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 292.964421314480205, 122.0, 25.0, 36.0 ],
+					"presentation_rect" : [ 260.404164509342536, 119.5, 90.0, 41.0 ],
 					"proportion" : 0.5
 				}
 
@@ -2900,7 +2951,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-124", 0 ],
-					"source" : [ "obj-5", 0 ]
+					"source" : [ "obj-49", 0 ]
 				}
 
 			}
@@ -3018,16 +3069,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5" : [ "focus", "focus", 0 ],
+			"obj-49" : [ "focus", "focus", 0 ],
 			"obj-25::obj-1::obj-70" : [ "copy", "copy", 0 ],
 			"obj-24::obj-1::obj-5" : [ "maximum[1]", "max", 0 ],
-			"obj-25::obj-1::obj-3" : [ "bounds-mode", "bounds", 0 ],
 			"obj-24::obj-1::obj-42" : [ "in-lo[1]", "in-lo", 0 ],
-			"obj-25::obj-1::obj-8" : [ "post-add", "post-add", 0 ],
+			"obj-25::obj-1::obj-3" : [ "bounds-mode", "bounds", 0 ],
 			"obj-24::obj-9" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-25::obj-1::obj-8" : [ "post-add", "post-add", 0 ],
 			"obj-18" : [ "elevation-in", "elevation-in", 0 ],
-			"obj-26" : [ "volume-enable", "volume-enable", 0 ],
 			"obj-25::obj-2" : [ "scale", "scale", 0 ],
+			"obj-26" : [ "volume-enable", "volume-enable", 0 ],
 			"obj-24::obj-1::obj-9" : [ "multiply[1]", "multiply", 0 ],
 			"obj-24::obj-1::obj-39" : [ "out-hi[1]", "out-hi", 0 ],
 			"obj-25::obj-1::obj-9" : [ "multiply", "multiply", 0 ],
@@ -3039,8 +3090,8 @@
 			"obj-24::obj-1::obj-3" : [ "bounds-mode[1]", "bounds", 0 ],
 			"obj-24::obj-1::obj-40" : [ "out-lo[1]", "out-lo", 0 ],
 			"obj-25::obj-1::obj-5" : [ "maximum", "max", 0 ],
-			"obj-25::obj-1::obj-41" : [ "in-hi", "in-hi", 0 ],
 			"obj-25::obj-1::obj-4" : [ "minimum", "min", 0 ],
+			"obj-25::obj-1::obj-41" : [ "in-hi", "in-hi", 0 ],
 			"obj-3" : [ "position", "position", 0 ],
 			"obj-25::obj-1::obj-7" : [ "pre-add", "pre-add", 0 ],
 			"obj-25::obj-3" : [ "source", "source", 0 ],
@@ -3050,10 +3101,10 @@
 			"obj-24::obj-1::obj-41" : [ "in-hi[1]", "in-hi", 0 ],
 			"obj-24::obj-3" : [ "source[1]", "source", 0 ],
 			"obj-25::obj-1::obj-40" : [ "out-lo", "out-lo", 0 ],
-			"obj-19" : [ "pan-enable", "pan-enable", 0 ],
 			"obj-24::obj-1::obj-4" : [ "minimum[1]", "min", 0 ],
-			"obj-25::obj-9" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-19" : [ "pan-enable", "pan-enable", 0 ],
 			"obj-24::obj-1::obj-7" : [ "pre-add[1]", "pre-add", 0 ],
+			"obj-25::obj-9" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-51" : [ "pitch", "pitch", 0 ],
 			"obj-25::obj-1::obj-42" : [ "in-lo", "in-lo", 0 ],
 			"obj-24::obj-1::obj-71" : [ "paste[1]", "paste", 0 ],
@@ -3107,7 +3158,7 @@
  ],
 		"autosave" : 0,
 		"boxgroups" : [ 			{
-				"boxes" : [ "obj-18", "obj-51" ]
+				"boxes" : [ "obj-70", "obj-36", "obj-75", "obj-78" ]
 			}
  ],
 		"styles" : [ 			{
