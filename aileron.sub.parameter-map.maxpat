@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 754.0, 79.0, 231.0, 787.0 ],
+		"rect" : [ 34.0, 79.0, 951.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -1903,7 +1903,7 @@
 					"id" : "obj-15",
 					"inactivelcdcolor" : [ 0.745098039215686, 0.756862745098039, 0.784313725490196, 1.0 ],
 					"lcdbgcolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
-					"lcdcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
+					"lcdcolor" : [ 0.396078431372549, 0.643137254901961, 0.886274509803922, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -1914,13 +1914,13 @@
 					"presentation_rect" : [ 84.0, 1.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
+							"parameter_linknames" : 1,
 							"parameter_longname" : "Unmap[8]",
 							"parameter_invisible" : 2,
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "unmap",
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_type" : 2,
-							"parameter_linknames" : 1
+							"parameter_enum" : [ "val1", "val2" ]
 						}
 
 					}
@@ -1962,7 +1962,7 @@
 					"id" : "obj-19",
 					"inactivelcdcolor" : [ 0.745098039215686, 0.756862745098039, 0.784313725490196, 1.0 ],
 					"lcdbgcolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
-					"lcdcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
+					"lcdcolor" : [ 0.396078431372549, 0.643137254901961, 0.886274509803922, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -1974,16 +1974,16 @@
 					"prototypename" : "onoff",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_defer" : 1,
+							"parameter_type" : 2,
+							"parameter_linknames" : 1,
 							"parameter_longname" : "Map[8]",
 							"parameter_invisible" : 2,
 							"parameter_mmax" : 1,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_speedlim" : 0.0,
 							"parameter_shortname" : "Map",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_defer" : 1,
-							"parameter_type" : 2,
-							"parameter_linknames" : 1
+							"parameter_enum" : [ "off", "on" ]
 						}
 
 					}
@@ -5048,7 +5048,7 @@
 					"id" : "obj-20",
 					"inactivelcdcolor" : [ 0.745098039215686, 0.756862745098039, 0.784313725490196, 1.0 ],
 					"lcdbgcolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
-					"lcdcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
+					"lcdcolor" : [ 0.396078431372549, 0.643137254901961, 0.886274509803922, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -5060,17 +5060,17 @@
 					"prototypename" : "amount",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 5,
+							"parameter_linknames" : 1,
+							"parameter_units" : "%",
 							"parameter_longname" : "Max[8]",
 							"parameter_initial_enable" : 1,
 							"parameter_modmode" : 4,
 							"parameter_mmax" : 100.0,
 							"parameter_initial" : [ 100.0 ],
 							"parameter_speedlim" : 0.0,
-							"parameter_shortname" : "Max",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 5,
-							"parameter_linknames" : 1,
-							"parameter_units" : "%"
+							"parameter_shortname" : "Max"
 						}
 
 					}
@@ -5094,7 +5094,7 @@
 					"id" : "obj-26",
 					"inactivelcdcolor" : [ 0.745098039215686, 0.756862745098039, 0.784313725490196, 1.0 ],
 					"lcdbgcolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
-					"lcdcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
+					"lcdcolor" : [ 0.396078431372549, 0.643137254901961, 0.886274509803922, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -5106,17 +5106,17 @@
 					"prototypename" : "amount",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 5,
+							"parameter_linknames" : 1,
+							"parameter_units" : "%",
 							"parameter_longname" : "Min[8]",
 							"parameter_initial_enable" : 1,
 							"parameter_modmode" : 4,
 							"parameter_mmax" : 100.0,
 							"parameter_initial" : [ 0 ],
 							"parameter_speedlim" : 0.0,
-							"parameter_shortname" : "Min",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 5,
-							"parameter_linknames" : 1,
-							"parameter_units" : "%"
+							"parameter_shortname" : "Min"
 						}
 
 					}
@@ -6750,10 +6750,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-26" : [ "Min[8]", "Min", 0 ],
 			"obj-20" : [ "Max[8]", "Max", 0 ],
 			"obj-15" : [ "Unmap[8]", "unmap", 0 ],
 			"obj-19" : [ "Map[8]", "Map", 0 ],
+			"obj-26" : [ "Min[8]", "Min", 0 ],
 			"parameterbanks" : 			{
 
 			}

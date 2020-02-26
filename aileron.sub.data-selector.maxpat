@@ -81,7 +81,7 @@
 					"id" : "obj-2",
 					"inactivelcdcolor" : [ 0.745098039215686, 0.756862745098039, 0.784313725490196, 1.0 ],
 					"lcdbgcolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
-					"lcdcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
+					"lcdcolor" : [ 0.396078431372549, 0.643137254901961, 0.886274509803922, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -90,16 +90,16 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 264.0, 221.199999451637268, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 82.250000387430191, 2.5, 10.0, 10.0 ],
+					"presentation_rect" : [ 157.250000387430191, 2.5, 10.0, 10.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
+							"parameter_linknames" : 1,
 							"parameter_longname" : "scale",
 							"parameter_invisible" : 2,
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "scale",
-							"parameter_enum" : [ "scale", "scale" ],
-							"parameter_type" : 2,
-							"parameter_linknames" : 1
+							"parameter_enum" : [ "scale", "scale" ]
 						}
 
 					}
@@ -128,7 +128,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 95.5, 365.0, 93.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 94.750000387430191, -1.833333343267441, 76.5, 20.0 ],
+					"presentation_rect" : [ 169.750000387430191, -1.833333343267441, 76.5, 20.0 ],
 					"textcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
 					"triangle" : 0,
 					"tricolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ]
@@ -151,16 +151,16 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 275.5, 110.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 95.250000387430191, 0.0, 71.75, 15.0 ],
+					"presentation_rect" : [ 170.250000387430191, 0.0, 71.75, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
+							"parameter_unitstyle" : 1,
 							"parameter_longname" : "live.numbox",
 							"parameter_invisible" : 2,
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.numbox",
-							"parameter_enum" : [ "0", "1" ],
-							"parameter_type" : 2,
-							"parameter_unitstyle" : 1
+							"parameter_enum" : [ "0", "1" ]
 						}
 
 					}
@@ -194,9 +194,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 275.5, 83.0, 137.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.000000387430191, -1.833333343267441, 165.0, 18.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 73.0, 18.0 ],
 					"text" : "#1",
-					"textcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ]
+					"textcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
+					"textjustification" : 2
 				}
 
 			}
@@ -376,7 +377,7 @@
 					"id" : "obj-3",
 					"inactivelcdcolor" : [ 0.745098039215686, 0.756862745098039, 0.784313725490196, 1.0 ],
 					"lcdbgcolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
-					"lcdcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
+					"lcdcolor" : [ 0.396078431372549, 0.643137254901961, 0.886274509803922, 1.0 ],
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -384,17 +385,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 55.0, 75.0, 100.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 80.0, 15.0 ],
+					"presentation_rect" : [ 75.0, 0.0, 80.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
 							"parameter_longname" : "source",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_mmax" : 18,
 							"parameter_initial" : [ "#2" ],
 							"parameter_shortname" : "source",
-							"parameter_enum" : [ "none", "position north", "position east", "position up", "velocity", "velocity x", "velocity y", "velocity z", "attitude x", "attitude y", "attitude z", "heading", "acceleration x", "acceleration y", "acceleration z", "latitude", "longitude", "altitude", "time" ],
-							"parameter_type" : 2
+							"parameter_enum" : [ "none", "position north", "position east", "position up", "velocity", "velocity x", "velocity y", "velocity z", "attitude x", "attitude y", "attitude z", "heading", "acceleration x", "acceleration y", "acceleration z", "latitude", "longitude", "altitude", "time" ]
 						}
 
 					}
@@ -544,21 +545,21 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-1::obj-70" : [ "copy", "copy", 0 ],
 			"obj-1::obj-8" : [ "post-add", "post-add", 0 ],
+			"obj-2" : [ "scale", "scale", 0 ],
 			"obj-1::obj-9" : [ "multiply", "multiply", 0 ],
 			"obj-1::obj-39" : [ "out-hi", "out-hi", 0 ],
-			"obj-1::obj-41" : [ "in-hi", "in-hi", 0 ],
-			"obj-2" : [ "scale", "scale", 0 ],
-			"obj-1::obj-70" : [ "copy", "copy", 0 ],
-			"obj-1::obj-7" : [ "pre-add", "pre-add", 0 ],
+			"obj-1::obj-71" : [ "paste", "paste", 0 ],
 			"obj-1::obj-5" : [ "maximum", "max", 0 ],
 			"obj-1::obj-4" : [ "minimum", "min", 0 ],
-			"obj-9" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-1::obj-40" : [ "out-lo", "out-lo", 0 ],
-			"obj-1::obj-3" : [ "bound mode", "bounds", 0 ],
+			"obj-1::obj-41" : [ "in-hi", "in-hi", 0 ],
+			"obj-1::obj-7" : [ "pre-add", "pre-add", 0 ],
 			"obj-3" : [ "source", "source", 0 ],
+			"obj-1::obj-3" : [ "bound mode", "bounds", 0 ],
+			"obj-1::obj-40" : [ "out-lo", "out-lo", 0 ],
+			"obj-9" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-1::obj-42" : [ "in-lo", "in-lo", 0 ],
-			"obj-1::obj-71" : [ "paste", "paste", 0 ],
 			"parameterbanks" : 			{
 
 			}

@@ -107,7 +107,7 @@
 					"id" : "obj-5",
 					"inactivelcdcolor" : [ 0.745098, 0.756863, 0.784314, 1.0 ],
 					"lcdbgcolor" : [ 0.2, 0.192157, 0.211765, 1.0 ],
-					"lcdcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
+					"lcdcolor" : [ 0.396078431372549, 0.643137254901961, 0.886274509803922, 1.0 ],
 					"maxclass" : "live.text",
 					"mode" : 0,
 					"numinlets" : 1,
@@ -119,12 +119,12 @@
 					"presentation_rect" : [ 85.0, 20.724329642195954, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
+							"parameter_linknames" : 1,
 							"parameter_longname" : "view-notes",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "view notes",
-							"parameter_enum" : [ "shownotesoff", "shownoteson" ],
-							"parameter_type" : 2,
-							"parameter_linknames" : 1
+							"parameter_enum" : [ "shownotesoff", "shownoteson" ]
 						}
 
 					}
@@ -212,7 +212,7 @@
 					"id" : "obj-30",
 					"inactivelcdcolor" : [ 0.745098, 0.756863, 0.784314, 1.0 ],
 					"lcdbgcolor" : [ 0.2, 0.192157, 0.211765, 1.0 ],
-					"lcdcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
+					"lcdcolor" : [ 0.396078431372549, 0.643137254901961, 0.886274509803922, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -223,13 +223,13 @@
 					"presentation_rect" : [ 63.0, 20.724329642195954, 20.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
 							"parameter_longname" : "live.text[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_shortname" : "live.text[2]",
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_type" : 2
+							"parameter_enum" : [ "val1", "val2" ]
 						}
 
 					}
@@ -282,7 +282,7 @@
 					"id" : "obj-32",
 					"inactivelcdcolor" : [ 0.745098, 0.756863, 0.784314, 1.0 ],
 					"lcdbgcolor" : [ 0.2, 0.192157, 0.211765, 1.0 ],
-					"lcdcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
+					"lcdcolor" : [ 0.396078431372549, 0.643137254901961, 0.886274509803922, 1.0 ],
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -293,15 +293,15 @@
 					"presentation_rect" : [ 1.0, 20.724329642195954, 60.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
+							"parameter_linknames" : 1,
 							"parameter_longname" : "sort order",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 3,
 							"parameter_initial" : [ 2 ],
 							"parameter_order" : 2,
 							"parameter_shortname" : "order",
-							"parameter_enum" : [ "pitch", "sequence", "length", "velocity" ],
-							"parameter_type" : 2,
-							"parameter_linknames" : 1
+							"parameter_enum" : [ "pitch", "sequence", "length", "velocity" ]
 						}
 
 					}
@@ -1440,8 +1440,8 @@
  ],
 		"parameters" : 		{
 			"obj-5" : [ "view-notes", "view notes", 0 ],
-			"obj-30" : [ "live.text[2]", "live.text[2]", 0 ],
 			"obj-32" : [ "sort order", "order", 2 ],
+			"obj-30" : [ "live.text[2]", "live.text[2]", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -1460,10 +1460,10 @@
 		"styles" : [ 			{
 				"name" : "aileron",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"fontface" : [ 0 ],
 					"locked_bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
-					"fontsize" : [ 12.0 ]
+					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",

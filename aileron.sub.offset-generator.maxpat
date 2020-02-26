@@ -67,7 +67,7 @@
 					"id" : "obj-4",
 					"inactivelcdcolor" : [ 0.745098039215686, 0.756862745098039, 0.784313725490196, 1.0 ],
 					"lcdbgcolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
-					"lcdcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
+					"lcdcolor" : [ 0.396078431372549, 0.643137254901961, 0.886274509803922, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -78,15 +78,15 @@
 					"presentation_rect" : [ 47.0, 2.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0,
+							"parameter_linknames" : 1,
+							"parameter_mmin" : -24.0,
 							"parameter_longname" : "offset2",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 24.0,
 							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "offset2",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
-							"parameter_linknames" : 1,
-							"parameter_mmin" : -24.0
+							"parameter_shortname" : "offset2"
 						}
 
 					}
@@ -102,7 +102,7 @@
 					"id" : "obj-3",
 					"inactivelcdcolor" : [ 0.745098039215686, 0.756862745098039, 0.784313725490196, 1.0 ],
 					"lcdbgcolor" : [ 0.2, 0.192156862745098, 0.211764705882353, 1.0 ],
-					"lcdcolor" : [ 0.909803921568627, 0.92156862745098, 0.933333333333333, 1.0 ],
+					"lcdcolor" : [ 0.396078431372549, 0.643137254901961, 0.886274509803922, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -113,15 +113,15 @@
 					"presentation_rect" : [ 1.0, 2.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0,
+							"parameter_linknames" : 1,
+							"parameter_mmin" : -24.0,
 							"parameter_longname" : "offset1",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 24.0,
 							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "offset1",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
-							"parameter_linknames" : 1,
-							"parameter_mmin" : -24.0
+							"parameter_shortname" : "offset1"
 						}
 
 					}
@@ -606,8 +606,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4" : [ "offset2", "offset2", 0 ],
 			"obj-3" : [ "offset1", "offset1", 0 ],
+			"obj-4" : [ "offset2", "offset2", 0 ],
 			"parameterbanks" : 			{
 
 			}
