@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 652.0, 349.0 ],
+		"rect" : [ 34.0, 79.0, 1372.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 					"presentation_rect" : [ 255.404164509342536, 63.25, 90.0, 95.0 ],
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"xplace" : [ 0.5 ],
-					"yplace" : [ 0.0 ]
+					"yplace" : [ 0.9990234375 ]
 				}
 
 			}
@@ -2091,7 +2091,7 @@
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 757.0, -1001.0, 892.0, 967.0 ],
+						"rect" : [ -203.0, -1001.0, 892.0, 967.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2150,7 +2150,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 201.5, 236.0, 29.5, 22.0 ],
-									"text" : "-"
+									"text" : "!-"
 								}
 
 							}
@@ -2184,7 +2184,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 200.0, 363.0, 35.0, 22.0 ],
+									"patching_rect" : [ 200.0, 408.0, 35.0, 22.0 ],
 									"text" : "out 1"
 								}
 
@@ -3127,8 +3127,8 @@
 			"obj-25::obj-1::obj-7" : [ "pre-add", "pre-add", 0 ],
 			"obj-20" : [ "elevation-enable", "elevation-on]", 0 ],
 			"obj-19" : [ "pan-enable", "pan-enable", 0 ],
-			"obj-25::obj-1::obj-70" : [ "copy", "copy", 0 ],
 			"obj-25::obj-1::obj-5" : [ "maximum", "max", 0 ],
+			"obj-25::obj-1::obj-70" : [ "copy", "copy", 0 ],
 			"obj-24::obj-1::obj-70" : [ "copy[1]", "copy", 0 ],
 			"obj-24::obj-1::obj-71" : [ "paste[1]", "paste", 0 ],
 			"obj-24::obj-1::obj-4" : [ "minimum[1]", "min", 0 ],

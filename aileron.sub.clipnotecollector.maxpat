@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 374.0, 122.0, 689.0, 690.0 ],
+		"rect" : [ 101.0, 121.0, 689.0, 690.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -116,7 +116,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 347.333333333333314, 1445.80000190674582, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 85.0, 20.724329642195954, 44.0, 15.0 ],
+					"presentation_rect" : [ 1.0, 37.724329642195954, 82.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_type" : 2,
@@ -365,7 +365,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -400,7 +400,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 144.200001239776611, 208.200002431869507, 35.0, 20.0 ],
+									"patching_rect" : [ 144.200001239776611, 208.200002431869507, 35.0, 35.0 ],
 									"text" : "join 2"
 								}
 
@@ -412,7 +412,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 158.000001609325409, 100.0, 29.5, 20.0 ],
+									"patching_rect" : [ 158.000001609325409, 100.0, 29.5, 22.0 ],
 									"text" : "t b l"
 								}
 
@@ -424,7 +424,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 4,
 									"outlettype" : [ "int", "", "", "int" ],
-									"patching_rect" : [ 89.0, 168.000001013278961, 61.0, 20.0 ],
+									"patching_rect" : [ 89.0, 168.000001013278961, 61.0, 22.0 ],
 									"text" : "counter"
 								}
 
@@ -437,7 +437,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "clear", "goto" ],
-									"patching_rect" : [ 50.0, 100.0, 62.0, 20.0 ],
+									"patching_rect" : [ 50.0, 100.0, 62.0, 35.0 ],
 									"text" : "t clear goto"
 								}
 
@@ -1007,7 +1007,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 294.833333333333314, 1591.0, 30.0, 30.0 ]
+					"patching_rect" : [ 294.833333333333314, 1595.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -1439,9 +1439,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5" : [ "view-notes", "view notes", 0 ],
-			"obj-32" : [ "sort order", "order", 2 ],
 			"obj-30" : [ "live.text[2]", "live.text[2]", 0 ],
+			"obj-32" : [ "sort order", "order", 2 ],
+			"obj-5" : [ "view-notes", "view notes", 0 ],
 			"parameterbanks" : 			{
 
 			}
