@@ -58,7 +58,7 @@
 					"presentation_rect" : [ 255.404164509342536, 63.25, 90.0, 95.0 ],
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"xplace" : [ 0.5 ],
-					"yplace" : [ 0.9990234375 ]
+					"yplace" : [ 0.0 ]
 				}
 
 			}
@@ -156,7 +156,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "position",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 2,
 							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 0.5 ],
 							"parameter_shortname" : "position"
@@ -287,14 +286,14 @@
 					"presentation_rect" : [ 255.404164509342536, 9.93749825656414, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_enum" : [ "volume off", "volume on" ],
 							"parameter_type" : 2,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "volume-enable",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1,
 							"parameter_initial" : [ 1.0 ],
-							"parameter_shortname" : "volume-enable",
-							"parameter_enum" : [ "volume off", "volume on" ]
+							"parameter_shortname" : "volume-enable"
 						}
 
 					}
@@ -325,14 +324,14 @@
 					"presentation_rect" : [ 301.404164509342536, 9.93749825656414, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_enum" : [ "pan off", "pan on" ],
 							"parameter_type" : 2,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "pan-enable",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1,
 							"parameter_initial" : [ 1.0 ],
-							"parameter_shortname" : "pan-enable",
-							"parameter_enum" : [ "pan off", "pan on" ]
+							"parameter_shortname" : "pan-enable"
 						}
 
 					}
@@ -1766,14 +1765,14 @@
 					"presentation_rect" : [ 16.69288426289603, 9.93749825656414, 94.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_enum" : [ "azimuth off", "azimuth on" ],
 							"parameter_type" : 2,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "azimuth-enable",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1,
 							"parameter_initial" : [ 1.0 ],
-							"parameter_shortname" : "azimuth-on",
-							"parameter_enum" : [ "azimuth off", "azimuth on" ]
+							"parameter_shortname" : "azimuth-on"
 						}
 
 					}
@@ -1804,14 +1803,14 @@
 					"presentation_rect" : [ 139.078652788688089, 9.93749825656414, 94.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_enum" : [ "elevation off", "elevation on" ],
 							"parameter_type" : 2,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "elevation-enable",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1,
 							"parameter_initial" : [ 1.0 ],
-							"parameter_shortname" : "elevation-on]",
-							"parameter_enum" : [ "elevation off", "elevation on" ]
+							"parameter_shortname" : "elevation-on]"
 						}
 
 					}
@@ -3109,60 +3108,68 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-24::obj-1::obj-42" : [ "in-lo[1]", "in-lo", 0 ],
-			"obj-24::obj-1::obj-39" : [ "out-hi[1]", "out-hi", 0 ],
-			"obj-24::obj-1::obj-8" : [ "post-add[1]", "post-add", 0 ],
-			"obj-24::obj-9" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-25::obj-1::obj-3" : [ "bounds-mode", "bounds", 0 ],
-			"obj-29" : [ "azimuth-enable", "azimuth-on", 0 ],
-			"obj-24::obj-2" : [ "scale[1]", "scale", 0 ],
-			"obj-25::obj-1::obj-39" : [ "out-hi", "out-hi", 0 ],
 			"obj-25::obj-2" : [ "scale", "scale", 0 ],
-			"obj-49" : [ "focus", "focus", 0 ],
-			"obj-24::obj-1::obj-9" : [ "multiply[1]", "multiply", 0 ],
-			"obj-24::obj-1::obj-7" : [ "pre-add[1]", "pre-add", 0 ],
-			"obj-25::obj-1::obj-4" : [ "minimum", "min", 0 ],
-			"obj-25::obj-9" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-4" : [ "dial", "dial", 0 ],
-			"obj-25::obj-1::obj-7" : [ "pre-add", "pre-add", 0 ],
-			"obj-20" : [ "elevation-enable", "elevation-on]", 0 ],
-			"obj-19" : [ "pan-enable", "pan-enable", 0 ],
-			"obj-25::obj-1::obj-5" : [ "maximum", "max", 0 ],
-			"obj-25::obj-1::obj-70" : [ "copy", "copy", 0 ],
-			"obj-24::obj-1::obj-70" : [ "copy[1]", "copy", 0 ],
-			"obj-24::obj-1::obj-71" : [ "paste[1]", "paste", 0 ],
-			"obj-24::obj-1::obj-4" : [ "minimum[1]", "min", 0 ],
-			"obj-25::obj-1::obj-41" : [ "in-hi", "in-hi", 0 ],
-			"obj-3" : [ "position", "position", 0 ],
-			"obj-26" : [ "volume-enable", "volume-enable", 0 ],
-			"obj-25::obj-1::obj-40" : [ "out-lo", "out-lo", 0 ],
-			"obj-25::obj-3" : [ "source", "source", 0 ],
-			"obj-18" : [ "elevation-in", "elevation-in", 0 ],
-			"obj-24::obj-1::obj-5" : [ "maximum[1]", "max", 0 ],
-			"obj-24::obj-1::obj-40" : [ "out-lo[1]", "out-lo", 0 ],
-			"obj-24::obj-3" : [ "source[1]", "source", 0 ],
-			"obj-25::obj-1::obj-9" : [ "multiply", "multiply", 0 ],
-			"obj-51" : [ "pitch", "pitch", 0 ],
-			"obj-25::obj-1::obj-71" : [ "paste", "paste", 0 ],
-			"obj-24::obj-1::obj-3" : [ "bounds-mode[1]", "bounds", 0 ],
 			"obj-24::obj-1::obj-41" : [ "in-hi[1]", "in-hi", 0 ],
 			"obj-25::obj-1::obj-42" : [ "in-lo", "in-lo", 0 ],
+			"obj-24::obj-1::obj-3" : [ "bounds-mode[1]", "bounds", 0 ],
+			"obj-25::obj-1::obj-7" : [ "pre-add", "pre-add", 0 ],
+			"obj-18" : [ "elevation-in", "elevation-in", 0 ],
+			"obj-25::obj-1::obj-3" : [ "bounds-mode", "bounds", 0 ],
+			"obj-25::obj-1::obj-5" : [ "maximum", "max", 0 ],
+			"obj-24::obj-1::obj-40" : [ "out-lo[1]", "out-lo", 0 ],
+			"obj-25::obj-1::obj-4" : [ "minimum", "min", 0 ],
+			"obj-25::obj-1::obj-70" : [ "copy", "copy", 0 ],
+			"obj-25::obj-1::obj-40" : [ "out-lo", "out-lo", 0 ],
+			"obj-24::obj-1::obj-7" : [ "pre-add[1]", "pre-add", 0 ],
+			"obj-4" : [ "dial", "dial", 0 ],
+			"obj-3" : [ "position", "position", 0 ],
+			"obj-24::obj-9" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-25::obj-3" : [ "source", "source", 0 ],
+			"obj-26" : [ "volume-enable", "volume-enable", 0 ],
+			"obj-24::obj-1::obj-42" : [ "in-lo[1]", "in-lo", 0 ],
+			"obj-24::obj-1::obj-9" : [ "multiply[1]", "multiply", 0 ],
+			"obj-29" : [ "azimuth-enable", "azimuth-on", 0 ],
+			"obj-24::obj-1::obj-8" : [ "post-add[1]", "post-add", 0 ],
+			"obj-25::obj-1::obj-41" : [ "in-hi", "in-hi", 0 ],
+			"obj-24::obj-1::obj-4" : [ "minimum[1]", "min", 0 ],
 			"obj-25::obj-1::obj-8" : [ "post-add", "post-add", 0 ],
+			"obj-25::obj-1::obj-71" : [ "paste", "paste", 0 ],
+			"obj-19" : [ "pan-enable", "pan-enable", 0 ],
+			"obj-24::obj-1::obj-5" : [ "maximum[1]", "max", 0 ],
+			"obj-25::obj-9" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-24::obj-3" : [ "source[1]", "source", 0 ],
+			"obj-25::obj-1::obj-9" : [ "multiply", "multiply", 0 ],
+			"obj-49" : [ "focus", "focus", 0 ],
+			"obj-24::obj-1::obj-39" : [ "out-hi[1]", "out-hi", 0 ],
+			"obj-20" : [ "elevation-enable", "elevation-on]", 0 ],
+			"obj-24::obj-1::obj-70" : [ "copy[1]", "copy", 0 ],
+			"obj-25::obj-1::obj-39" : [ "out-hi", "out-hi", 0 ],
+			"obj-51" : [ "pitch", "pitch", 0 ],
+			"obj-24::obj-1::obj-71" : [ "paste[1]", "paste", 0 ],
+			"obj-24::obj-2" : [ "scale[1]", "scale", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-24::obj-9" : 				{
-					"parameter_longname" : "live.numbox[1]"
-				}
-,
-				"obj-24::obj-2" : 				{
-					"parameter_longname" : "scale[1]"
+				"obj-24::obj-1::obj-3" : 				{
+					"parameter_longname" : "bounds-mode[1]"
 				}
 ,
 				"obj-25::obj-1::obj-70" : 				{
 					"parameter_longname" : "copy"
+				}
+,
+				"obj-24::obj-9" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+,
+				"obj-25::obj-1::obj-71" : 				{
+					"parameter_longname" : "paste"
+				}
+,
+				"obj-24::obj-3" : 				{
+					"parameter_longname" : "source[1]"
 				}
 ,
 				"obj-24::obj-1::obj-70" : 				{
@@ -3173,16 +3180,8 @@
 					"parameter_longname" : "paste[1]"
 				}
 ,
-				"obj-24::obj-3" : 				{
-					"parameter_longname" : "source[1]"
-				}
-,
-				"obj-25::obj-1::obj-71" : 				{
-					"parameter_longname" : "paste"
-				}
-,
-				"obj-24::obj-1::obj-3" : 				{
-					"parameter_longname" : "bounds-mode[1]"
+				"obj-24::obj-2" : 				{
+					"parameter_longname" : "scale[1]"
 				}
 
 			}
@@ -3209,9 +3208,9 @@
 				"name" : "aileron",
 				"default" : 				{
 					"fontface" : [ 0 ],
-					"locked_bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
 					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"locked_bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
