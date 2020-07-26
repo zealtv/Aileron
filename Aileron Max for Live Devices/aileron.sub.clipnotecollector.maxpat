@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"attr" : "inactivelcdcolor",
@@ -79,9 +80,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "aileron.colors.maxpat",
 					"numinlets" : 0,
-					"numoutlets" : 1,
+					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
 					"patching_rect" : [ 696.0, 700.5, 380.0, 117.0 ],
 					"viewvisibility" : 1
 				}
@@ -119,12 +119,12 @@
 					"presentation_rect" : [ 1.0, 37.724329642195954, 82.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 2,
-							"parameter_linknames" : 1,
 							"parameter_longname" : "view-notes",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "view notes",
-							"parameter_enum" : [ "shownotesoff", "shownoteson" ]
+							"parameter_enum" : [ "shownotesoff", "shownoteson" ],
+							"parameter_type" : 2,
+							"parameter_linknames" : 1
 						}
 
 					}
@@ -223,13 +223,13 @@
 					"presentation_rect" : [ 63.0, 20.724329642195954, 20.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 2,
 							"parameter_longname" : "live.text[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_shortname" : "live.text[2]",
-							"parameter_enum" : [ "val1", "val2" ]
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_type" : 2
 						}
 
 					}
@@ -293,15 +293,15 @@
 					"presentation_rect" : [ 1.0, 20.724329642195954, 60.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 2,
-							"parameter_linknames" : 1,
 							"parameter_longname" : "sort order",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 3,
 							"parameter_initial" : [ 2 ],
 							"parameter_order" : 2,
 							"parameter_shortname" : "order",
-							"parameter_enum" : [ "pitch", "sequence", "length", "velocity" ]
+							"parameter_enum" : [ "pitch", "sequence", "length", "velocity" ],
+							"parameter_type" : 2,
+							"parameter_linknames" : 1
 						}
 
 					}
@@ -353,13 +353,13 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "clear" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -392,6 +392,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-109",
@@ -624,7 +625,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 316.5, 875.0, 150.0, 47.0 ],
+					"patching_rect" : [ 316.5, 875.0, 150.0, 48.0 ],
 					"text" : "this bangs when notelist changes but leads to double calls"
 				}
 
@@ -1007,7 +1008,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 294.833333333333314, 1595.0, 30.0, 30.0 ]
+					"patching_rect" : [ 464.13332649071998, 1606.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -1201,13 +1202,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-90", 0 ],
 					"source" : [ "obj-38", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -1440,30 +1434,24 @@
  ],
 		"parameters" : 		{
 			"obj-30" : [ "live.text[2]", "live.text[2]", 0 ],
-			"obj-32" : [ "sort order", "order", 2 ],
 			"obj-5" : [ "view-notes", "view notes", 0 ],
+			"obj-32" : [ "sort order", "order", 2 ],
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
-		"dependency_cache" : [ 			{
-				"name" : "aileron.colors.maxpat",
-				"bootpath" : "~/PHD/code/m4l/Aileron/assets",
-				"patcherrelativepath" : "./assets",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "aileron",
 				"default" : 				{
-					"fontface" : [ 0 ],
 					"locked_bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
 					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "",
